@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Staatliches&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -178,8 +179,8 @@
         <div>
           <h3>Email Newsletter</h3>
           <p>Lorem ipsum dolor sit amet.</p>
-          <form>
-            <input type="email" placeholder="Enter Email..." />
+          <form name="contact" method="POST" data-netlify="true">
+            <input type="email" name="email" placeholder="Enter Email..." />
             <input type="submit" value="Subscribe" class="btn btn-primary" />
           </form>
         </div>
@@ -188,7 +189,7 @@
           <ul class="list">
             <li><a href="#">Help & Support </a></li>
             <li><a href="#">Privacy Policy </a></li>
-            <li><a href="#">About Us </a></li>
+            <li><a href="about.html">About Us </a></li>
             <li><a href="#">Contact </a></li>
           </ul>
         </div>
